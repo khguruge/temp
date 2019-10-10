@@ -1,34 +1,6 @@
-div.col-sm-1 a img {
-  	width: 130px;
-    margin: 10px;
-    margin-left: 0px;
-}
-
-div.col-sm-9 {
-  height: 50px;
-  margin-top: 15px;
-}
-
-div.col-sm-9 ul {
-  list-style: none;
-}
-div.col-sm-9 ul li {
-  padding-right: 40px;
-  display: inline-block;
-}
-
-div.col-sm-9 ul li a {
-  text-transform: uppercase;
-}
-
-
-div.col-sm-2 ul {
-  margin-top: 20px;
-  float: right;
-  list-style: none;
-}
-div.col-sm-2 ul li {
-  display: inline-block;
+div.top-bar nav a img {
+    width: 100px;
+    height: 50px;
 }
 
 div.dropdown button {
@@ -78,42 +50,6 @@ div.dropdown button {
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-div.vendors_bar ul {
-  padding: 10px;
-  list-style: none;
-}
-div.vendors_bar ul li {
-  padding-left:40px;
-  padding-right: 40px;  
-  display: inline-block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -153,3 +89,17 @@ div.vendors_bar ul li {
   }
 }
 
+.vendor-description {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
