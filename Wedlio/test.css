@@ -1,3 +1,7 @@
+div.top-nav {
+    background-color: white;
+}
+
 div.top-bar nav a img {
     width: 100px;
     height: 50px;
@@ -5,6 +9,7 @@ div.top-bar nav a img {
 
 div.dropdown button {
   text-transform: uppercase;
+  width: 180px;
 }
 
 /* Dropdown Button */
@@ -49,6 +54,10 @@ div.dropdown button {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+
+div.collapse ul li {
+    margin-left: 50px;
+}
 
 .row {
   display: flex;
