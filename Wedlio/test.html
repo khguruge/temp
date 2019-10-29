@@ -1,183 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title></title>
-</head>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="test.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <body>
-  <div class="top-bar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="img/assets/wedlio_logo.png" class="responsive"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                                               
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
-      <div class="top-nav navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li><a href="#"><div class="dropdown">
-                <button class="dropbtn">planning tools</button>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div></a></li>
-
-          <li><a href="#"><div class="dropdown">
-                <button class="dropbtn">wedding vision</button>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div></a></li>
-          <li><a href="#"><div class="dropdown">
-                <button class="dropbtn">local vendors</button>
-                <div class="dropdown-content">
-                  <a href="#">Wedding Planners</a>
-                  <a href="#">Reception Venues</a>
-                  <a href="#">Videographers</a>
-                  <a href="#">Photographers</a>
-                  <a href="#">Bridal Salons</a>
-                  <a href="#">DJs</a>
-                  <a href="#">Wedding Bands</a>
-                  <a href="#">Rentals</a>
-                </div>
-              </div></a></li>
-
-          <li><a href="#"><div class="dropdown">
-                <button class="dropbtn">gallery</button>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div></a></li>
-
-          <li><a href="#"><div class="dropdown">
-                <button class="dropbtn">budgeter</button>
-                <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div></a></li>
-        </ul>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
-
-      </div> <!-- top-nav -->
-    </nav> <!-- navbar -->
-  </div> <!-- top-bar -->
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Wedding Planners</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Reception Venues</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Videographers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Photographers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Bridal Salons</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">DJs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Wedding Bands</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Rentals</a>
-      </li>
-    </ul>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
   </div>
-</nav>
-
-    <div id="slideshow" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/assets/wedding.jpg" alt="First slide" class="responsive">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/assets/wedding.jpg" alt="Second slide" class="responsive">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/assets/wedding.jpg" alt="Third slide" class="responsive">
-    </div>
-
-  </div> <!-- carousel-inner -->
-</div> <!-- slideshow -->
-
-<br><h1><b><center>Top Wedding Vendor Categories</center></b></h1>
-
-<div class="container-fluid">
-      <div class="vendor_list">
-         <div class="row">
-          <div class="column">
-
-            <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-              <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-          </div> <!-- column -->
-          <div class="column">
-            <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-              <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-          </div>  <!-- column -->   
-          <div class="column">
-            <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-              <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-          </div> <!-- column -->
-          <div class="column">
-            <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>
-              <div class="vendor-description">
-              <img src="img/assets/temp.jpg">
-              <div class="centered">Centered</div>
-            </div>>
-          </div>  <!-- column -->   
-        </div> <!-- row -->
-      </div> <!-- vendor_list -->
-    </div> <!-- container-fluid -->
-
+  
+</div>
 
 </body>
 </html>
-
-
-
