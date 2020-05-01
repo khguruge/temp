@@ -7,8 +7,15 @@ main(){
   class MyaApp extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
-  return MaterialApp(
-    home: Text('Hello machan'),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title : Text("hello Pro"),
+        ),
+        body: Center(
+          child: Text("Hello"),)
+
+      )
   );
   }
 }
