@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-ng-fc462": {
+      "hosting": {
+        "login": [
+          "login-ng-fc462"
+        ]
+      }
+    }
+  }
+}
