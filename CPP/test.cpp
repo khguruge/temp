@@ -1,18 +1,33 @@
 #include <iostream>
 using namespace std;
 
-int plusFuncInt(int x, int y) {
-  return x + y;
-}
+struct Person {
+    char name[50];
+    int age;
+    float salary;
+};
 
-double plusFuncDouble(double x, double y) {
-  return x + y;
-}
+Person getData(Person); 
+void displayData(Person); 
 
-int main() {
-  int myNum1 = plusFuncInt(8, 5);
-  double myNum2 = plusFuncDouble(4.3, 6.26);
-  cout << "Int: " << myNum1 << "\n";
-  cout << "Double: " << myNum2;
-  return 0;
+int main()
+{
+
+    Person p;
+
+
+    cout << "Enter Full name: ";
+    cin.get(p.name, 50);
+
+    cout << "Enter age: ";
+    cin >> p.age;
+    cout << "Enter salary: ";
+    cin >> p.salary;
+
+
+
+    cout << "\nDisplaying Information." << endl;
+    cout << "Name: " << p.name << endl;
+    cout <<"Age: " << p.age << endl;
+    cout << "Salary: " << p.salary;
 }

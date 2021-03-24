@@ -1,0 +1,26 @@
+<annotation>
+	<folder>licencesDataSet</folder>
+	<filename>16.jpeg</filename>
+	<path>/home/kh/Documents/temp/opencv/licencesDataSet/16.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>259</width>
+		<height>194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>licence-plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>103</xmin>
+			<ymin>89</ymin>
+			<xmax>149</xmax>
+			<ymax>101</ymax>
+		</bndbox>
+	</object>
+</annotation>
